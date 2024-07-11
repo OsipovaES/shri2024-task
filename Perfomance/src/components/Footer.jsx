@@ -1,8 +1,11 @@
+import React from "react";
+import { createPortal } from "react-dom";
+
 export const Footer = () => {
-  return (
+  return createPortal(
     <footer className="footer">
       <ul className="footer__list">
-        <li class="footer__item">
+        <li className="footer__item">
           <a className="footer__link" href="/">
             Помощь
           </a>
@@ -25,6 +28,7 @@ export const Footer = () => {
       </ul>
 
       <div className="footer__copyright">© 1997–2023 ООО «Яндекс»</div>
-    </footer>
+    </footer>,
+    document.body
   );
 };
