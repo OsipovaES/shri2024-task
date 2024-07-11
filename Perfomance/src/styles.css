@@ -39,7 +39,6 @@ body {
   padding: 0 2.5rem;
   font-family: Arial, sans-serif;
   border-bottom: 1px solid #f0f0f0;
-  line-height: 1.25;
 }
 
 @media (max-width: 768px) {
@@ -168,8 +167,6 @@ body {
   grid-template-columns: 50% 50%;
   gap: 1.625rem;
   padding: 0 2.5rem;
-  font-family: Arial, sans-serif;
-  line-height: 1.25;
 }
 
 @media (max-width: 768px) {
@@ -598,7 +595,6 @@ body {
   color: #858585;
   transition: opacity 0.15s ease-in-out;
   text-decoration: none;
-  font-family: Arial, sans-serif;
 }
 
 .footer__link:hover {
@@ -609,8 +605,6 @@ body {
   margin-left: auto;
   font-size: 0.75rem;
   color: #858585;
-  font-family: Arial, sans-serif;
-  line-height: 1.25;
 }
 
 @media (max-width: 768px) {
